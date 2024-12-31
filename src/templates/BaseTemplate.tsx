@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button';
 import { AppConfig } from '@/utils/AppConfig';
 import { useTranslations } from 'next-intl';
 
@@ -11,6 +12,7 @@ export const BaseTemplate = (props: {
   return (
     <div className="w-full px-1 text-gray-700 antialiased">
       <div className="mx-auto max-w-screen-md">
+        <Button className="mx-auto mt-10">Button Example</Button>
         <header className="border-b border-gray-300">
           <div className="pb-8 pt-16">
             <h1 className="text-3xl font-bold text-gray-900">
