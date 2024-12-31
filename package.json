@@ -33,10 +33,14 @@
     "@electric-sql/pglite": "^0.2.15",
     "@hookform/resolvers": "^3.9.1",
     "@logtail/pino": "^0.5.2",
+    "@radix-ui/react-slot": "^1.1.1",
     "@sentry/nextjs": "^8.43.0",
     "@spotlightjs/spotlight": "^2.7.0",
     "@t3-oss/env-nextjs": "^0.11.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "drizzle-orm": "^0.38.0",
+    "lucide-react": "^0.469.0",
     "next": "^15.1.0",
     "next-intl": "^3.26.0",
     "pg": "^8.13.1",
@@ -45,6 +49,8 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-hook-form": "^7.54.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
     "zod": "^3.24.0"
   },
   "devDependencies": {
