@@ -64,3 +64,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+html,
+body {
+  font-family: 'Overpass', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
