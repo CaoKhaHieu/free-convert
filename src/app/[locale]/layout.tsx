@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { DemoBadge } from '@/components/DemoBadge';
 import arcjet, { detectBot, request } from '@/libs/Arcjet';
 import { Env } from '@/libs/Env';
 import { routing } from '@/libs/i18nNavigation';
@@ -87,6 +86,12 @@ export default async function RootLayout(props: {
 
   return (
     <html lang={locale}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
+      </head>
+
       <body suppressHydrationWarning>
         <NextIntlClientProvider
           locale={locale}
@@ -94,7 +99,6 @@ export default async function RootLayout(props: {
         >
           {props.children}
 
-          <DemoBadge />
         </NextIntlClientProvider>
       </body>
     </html>
