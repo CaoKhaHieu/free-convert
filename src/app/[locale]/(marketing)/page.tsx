@@ -27,11 +27,6 @@ export default async function Index(props: IIndexProps) {
     locale,
     namespace: 'Index',
   });
-  // const inputRef = useRef<HTMLInputElement>(null);
-
-  // const handleClick = () => {
-  //   inputRef.current?.click();
-  // };
 
   return (
     <div className="container mx-auto">

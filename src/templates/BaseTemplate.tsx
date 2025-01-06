@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const BaseTemplate = (props: {
-  leftNav: React.ReactNode;
+  leftNav?: React.ReactNode;
   rightNav?: React.ReactNode;
   children: React.ReactNode;
 }) => {
